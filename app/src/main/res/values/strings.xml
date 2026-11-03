@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">开屏跳过</string>
+    <string name="service_label">开屏跳过服务</string>
+    <string name="service_desc">自动识别应用启动时的开屏广告，优先点击“跳过/关闭广告”，必要时按坐标点击或返回键关闭。本服务不联网，不上传任何数据。</string>
+
+    <string name="status_on">无障碍服务：已开启</string>
+    <string name="status_off">无障碍服务：未开启</string>
+    <string name="open_accessibility">打开无障碍设置</string>
+
+    <string name="section_basic">基本设置</string>
+    <string name="enable_skip">启用自动跳过</string>
+    <string name="enable_skip_desc">关闭后服务仍在运行，但不再执行任何点击</string>
+
+    <string name="delay_title">点击延迟</string>
+    <string name="window_title">启动后检测时长</string>
+
+    <string name="section_strategy">兜底策略</string>
+    <string name="strategy_hint">优先识别并点击“跳过/关闭广告”控件；识别不到时按下面策略处理。</string>
+    <string name="strategy_element">仅点击可识别的跳过控件（最安全）</string>
+    <string name="strategy_tap">识别不到时，按坐标点击右上角</string>
+    <string name="strategy_back">再不行则按返回键关闭广告页</string>
+
+    <string name="section_corner">坐标点击位置</string>
+    <string name="corner_hint">仅在上面的“按坐标点击”策略生效时使用。不同 App 的跳过按钮位置不同，可逐一试用。</string>
+    <string name="corner_tr">右上角（默认）</string>
+    <string name="corner_br">右下角</string>
+    <string name="corner_tl">左上角</string>
+    <string name="corner_bl">左下角</string>
+
+    <string name="section_whitelist">生效范围</string>
+    <string name="whitelist_hint">留空 = 对所有应用生效。也可只填包名，多个用英文逗号分隔，例如：com.tencent.mm,com.taobao.taobao</string>
+    <string name="whitelist_label">仅对这些应用生效（选填）</string>
+
+    <string name="section_log">最近动作</string>
+    <string name="log_empty">暂无记录</string>
+
+    <string name="footer_note">本应用不申请联网权限，所有判断均在本机完成。\n开屏广告由目标应用自身渲染，本工具只能在广告出现后尽快点掉，无法从根源上阻止其加载。</string>
+</resources>
